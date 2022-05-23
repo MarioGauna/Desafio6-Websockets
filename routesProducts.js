@@ -35,7 +35,7 @@ const products=[
 ]
 
 router.get('/',(req,res)=>{
-    res.render('/',{products})
+    res.render('index.ejs',{products})
 })
 
 router.get('/productos',(req,res)=>{
